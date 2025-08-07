@@ -7,7 +7,7 @@ This module handles research planning by generating web search strategies.
 from pydantic import BaseModel, Field
 from agents import Agent
 
-HOW_MANY_SEARCHES = 4
+HOW_MANY_SEARCHES = 6
 
 INSTRUCTIONS = f"""You are a strategic research planner. Create a comprehensive search plan that ensures thorough coverage of the research topic.
 

@@ -65,7 +65,7 @@ research_manager = Agent(
 
 AVAILABLE SPECIALIST TOOLS:
 - clarify_research: Generates clarifying questions for complex topics
-- plan_searches: Creates strategic search plans (4 targeted searches)
+- plan_searches: Creates strategic search plans (6 targeted searches)
 - parallel_search: PREFERRED - Executes all planned searches concurrently using asyncio for maximum speed
 - search_web: Single web search for specific follow-ups only
 - write_report: Synthesizes findings into comprehensive reports
@@ -81,7 +81,7 @@ EFFICIENT RESEARCH WORKFLOW:
 1. For most topics: clarify_research → plan_searches → parallel_search → write_report
 2. Use clarify_research only for genuinely ambiguous queries  
 3. Always prefer parallel_search over individual search_web calls (much faster due to concurrency)
-4. Conduct 4 targeted searches covering different perspectives
+4. Conduct 6 targeted searches covering different perspectives
 5. Skip email delivery unless specifically requested
 
 OBJECTIVITY STANDARDS:
